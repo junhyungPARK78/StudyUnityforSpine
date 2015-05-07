@@ -1,0 +1,4247 @@
+
+monk.png
+size: 490,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cain/arm_L
+  rotate: true
+  xy: 420, 86
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+images/cain/arm_R
+  rotate: false
+  xy: 420, 25
+  size: 23, 32
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+images/cain/body
+  rotate: true
+  xy: 385, 24
+  size: 40, 33
+  orig: 40, 33
+  offset: 0, 0
+  index: -1
+images/cain/eye_L_attack
+  rotate: false
+  xy: 420, 60
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+images/cain/eye_L_hit
+  rotate: true
+  xy: 445, 30
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+images/cain/eye_L_smile
+  rotate: false
+  xy: 466, 38
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+images/cain/eye_R_attack
+  rotate: false
+  xy: 453, 83
+  size: 35, 25
+  orig: 35, 25
+  offset: 0, 0
+  index: -1
+images/cain/eye_R_hit
+  rotate: false
+  xy: 418, 3
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+images/cain/eye_R_smile
+  rotate: true
+  xy: 453, 2
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+images/cain/face
+  rotate: false
+  xy: 226, 22
+  size: 84, 86
+  orig: 84, 86
+  offset: 0, 0
+  index: -1
+images/cain/foot_L
+  rotate: false
+  xy: 312, 10
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+images/cain/foot_R
+  rotate: false
+  xy: 312, 59
+  size: 33, 49
+  orig: 33, 49
+  offset: 0, 0
+  index: -1
+images/cain/hair_back
+  rotate: true
+  xy: 2, 3
+  size: 105, 127
+  orig: 105, 127
+  offset: 0, 0
+  index: -1
+images/cain/hair_front
+  rotate: true
+  xy: 131, 9
+  size: 99, 93
+  orig: 99, 93
+  offset: 0, 0
+  index: -1
+images/cain/leg_L
+  rotate: false
+  xy: 347, 65
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+images/cain/leg_R
+  rotate: true
+  xy: 377, 66
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+images/cain/mouth_attack
+  rotate: false
+  xy: 131, 4
+  size: 7, 3
+  orig: 7, 3
+  offset: 0, 0
+  index: -1
+images/cain/mouth_hit
+  rotate: false
+  xy: 238, 11
+  size: 22, 9
+  orig: 22, 9
+  offset: 0, 0
+  index: -1
+images/cain/mouth_smile
+  rotate: true
+  xy: 226, 4
+  size: 16, 10
+  orig: 16, 10
+  offset: 0, 0
+  index: -1
+images/cain/nose
+  rotate: false
+  xy: 140, 4
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+images/cain/pelvis
+  rotate: false
+  xy: 344, 13
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: -1
+images/cain/shoulder_L
+  rotate: true
+  xy: 385, 2
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+images/cain/shoulder_R
+  rotate: true
+  xy: 453, 59
+  size: 22, 33
+  orig: 22, 33
+  offset: 0, 0
+  index: -1
+
+monk2.png
+size: 110,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cain/Lv.1/Lv.1.eye_L
+  rotate: false
+  xy: 45, 76
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.eye_R
+  rotate: true
+  xy: 80, 2
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.hand_L
+  rotate: true
+  xy: 69, 69
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.hand_L_SIDE
+  rotate: true
+  xy: 48, 3
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.hand_L_UP
+  rotate: true
+  xy: 2, 3
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.hand_R
+  rotate: false
+  xy: 71, 100
+  size: 36, 39
+  orig: 36, 39
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.hand_R_SIDE
+  rotate: false
+  xy: 2, 51
+  size: 41, 50
+  orig: 41, 50
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.hand_R_UP
+  rotate: false
+  xy: 48, 34
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.mouth
+  rotate: false
+  xy: 45, 71
+  size: 7, 3
+  orig: 7, 3
+  offset: 0, 0
+  index: -1
+images/cain/Lv.1/Lv.1.pelvis_accesary
+  rotate: false
+  xy: 2, 103
+  size: 67, 36
+  orig: 67, 36
+  offset: 0, 0
+  index: -1
+
+monk3.png
+size: 638,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cain/Lv.2/Lv.2.eye_L
+  rotate: false
+  xy: 602, 19
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.eye_R
+  rotate: true
+  xy: 572, 6
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.foot_L
+  rotate: true
+  xy: 589, 46
+  size: 30, 47
+  orig: 30, 47
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.foot_R
+  rotate: true
+  xy: 520, 2
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.hand_L
+  rotate: false
+  xy: 284, 4
+  size: 77, 72
+  orig: 77, 72
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.hand_L_SIDE
+  rotate: false
+  xy: 363, 4
+  size: 76, 72
+  orig: 76, 72
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.hand_L_UP
+  rotate: false
+  xy: 106, 15
+  size: 91, 61
+  orig: 91, 61
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.hand_R
+  rotate: true
+  xy: 441, 12
+  size: 64, 77
+  orig: 64, 77
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.hand_R_SIDE
+  rotate: false
+  xy: 2, 6
+  size: 102, 70
+  orig: 102, 70
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.hand_R_UP
+  rotate: true
+  xy: 199, 10
+  size: 66, 83
+  orig: 66, 83
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.mouth
+  rotate: false
+  xy: 602, 3
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+images/cain/Lv.2/Lv.2.pelvis_accesary
+  rotate: false
+  xy: 520, 38
+  size: 67, 38
+  orig: 67, 38
+  offset: 0, 0
+  index: -1
+
+monk4.png
+size: 491,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eroruru/arm_L
+  rotate: true
+  xy: 87, 3
+  size: 21, 28
+  orig: 21, 28
+  offset: 0, 0
+  index: -1
+images/eroruru/arm_R
+  rotate: true
+  xy: 352, 10
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+images/eroruru/body
+  rotate: false
+  xy: 310, 8
+  size: 40, 48
+  orig: 40, 48
+  offset: 0, 0
+  index: -1
+images/eroruru/body_accesary
+  rotate: true
+  xy: 220, 2
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+images/eroruru/body_accesary_back
+  rotate: true
+  xy: 267, 2
+  size: 52, 41
+  orig: 52, 41
+  offset: 0, 0
+  index: -1
+images/eroruru/ear_L
+  rotate: false
+  xy: 354, 65
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: -1
+images/eroruru/ear_R
+  rotate: false
+  xy: 305, 89
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+images/eroruru/ear_R_accesary
+  rotate: false
+  xy: 447, 9
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+images/eroruru/eye_L_attack
+  rotate: true
+  xy: 190, 9
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/eroruru/eye_L_hit
+  rotate: false
+  xy: 424, 52
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+images/eroruru/eye_L_smile
+  rotate: true
+  xy: 422, 29
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+images/eroruru/eye_R_attack
+  rotate: true
+  xy: 354, 35
+  size: 28, 32
+  orig: 28, 32
+  offset: 0, 0
+  index: -1
+images/eroruru/eye_R_hit
+  rotate: true
+  xy: 165, 2
+  size: 31, 23
+  orig: 31, 23
+  offset: 0, 0
+  index: -1
+images/eroruru/eye_R_smile
+  rotate: true
+  xy: 388, 37
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+images/eroruru/face
+  rotate: false
+  xy: 220, 56
+  size: 83, 84
+  orig: 83, 84
+  offset: 0, 0
+  index: -1
+images/eroruru/foot_L
+  rotate: false
+  xy: 396, 65
+  size: 26, 46
+  orig: 26, 46
+  offset: 0, 0
+  index: -1
+images/eroruru/foot_R
+  rotate: true
+  xy: 305, 58
+  size: 29, 47
+  orig: 29, 47
+  offset: 0, 0
+  index: -1
+images/eroruru/hair_back
+  rotate: false
+  xy: 2, 26
+  size: 116, 114
+  orig: 116, 114
+  offset: 0, 0
+  index: -1
+images/eroruru/hair_front
+  rotate: false
+  xy: 120, 35
+  size: 98, 105
+  orig: 98, 105
+  offset: 0, 0
+  index: -1
+images/eroruru/hand_L
+  rotate: true
+  xy: 451, 54
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+images/eroruru/hand_L_SIDE
+  rotate: true
+  xy: 469, 33
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+images/eroruru/hand_L_UP
+  rotate: false
+  xy: 34, 2
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+images/eroruru/hand_R
+  rotate: false
+  xy: 384, 10
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+images/eroruru/hand_R_SIDE
+  rotate: true
+  xy: 421, 8
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+images/eroruru/hand_R_UP
+  rotate: true
+  xy: 448, 29
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+images/eroruru/leg_L
+  rotate: false
+  xy: 424, 74
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+images/eroruru/leg_R
+  rotate: true
+  xy: 120, 2
+  size: 31, 43
+  orig: 31, 43
+  offset: 0, 0
+  index: -1
+images/eroruru/mouth_attack
+  rotate: true
+  xy: 463, 9
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+images/eroruru/mouth_hit
+  rotate: true
+  xy: 478, 120
+  size: 20, 9
+  orig: 20, 9
+  offset: 0, 0
+  index: -1
+images/eroruru/mouth_smile
+  rotate: true
+  xy: 407, 15
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+images/eroruru/nose
+  rotate: true
+  xy: 352, 2
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+images/eroruru/pelvis
+  rotate: true
+  xy: 451, 76
+  size: 36, 23
+  orig: 36, 23
+  offset: 0, 0
+  index: -1
+images/eroruru/shoulder_L
+  rotate: true
+  xy: 55, 3
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+images/eroruru/shoulder_R
+  rotate: true
+  xy: 2, 2
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+images/eroruru/skirt_back
+  rotate: false
+  xy: 420, 114
+  size: 56, 26
+  orig: 56, 26
+  offset: 0, 0
+  index: -1
+images/eroruru/tail
+  rotate: false
+  xy: 352, 113
+  size: 66, 27
+  orig: 66, 27
+  offset: 0, 0
+  index: -1
+
+monk5.png
+size: 136,61
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eroruru/Lv.1/Lv.1.eye_L
+  rotate: true
+  xy: 97, 7
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+images/eroruru/Lv.1/Lv.1.eye_R
+  rotate: true
+  xy: 97, 32
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+images/eroruru/Lv.1/Lv.1.mouth
+  rotate: false
+  xy: 2, 2
+  size: 16, 4
+  orig: 16, 4
+  offset: 0, 0
+  index: -1
+images/eroruru/Lv.1/Lv.1.skirt
+  rotate: false
+  xy: 2, 8
+  size: 93, 51
+  orig: 93, 51
+  offset: 0, 0
+  index: -1
+
+monk6.png
+size: 174,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/eroruru/Lv.2/Lv.2.arm_L_accesary
+  rotate: false
+  xy: 105, 40
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+images/eroruru/Lv.2/Lv.2.arm_R_accesary
+  rotate: false
+  xy: 143, 16
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+images/eroruru/Lv.2/Lv.2.eye_L
+  rotate: false
+  xy: 105, 2
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+images/eroruru/Lv.2/Lv.2.mouth
+  rotate: true
+  xy: 130, 19
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+images/eroruru/Lv.2/Lv.2.neck_accesary
+  rotate: false
+  xy: 146, 39
+  size: 26, 37
+  orig: 26, 37
+  offset: 0, 0
+  index: -1
+images/eroruru/Lv.2/Lv.2.skirt
+  rotate: false
+  xy: 2, 10
+  size: 101, 66
+  orig: 101, 66
+  offset: 0, 0
+  index: -1
+
+monk7.png
+size: 558,116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/geo/arm_L
+  rotate: false
+  xy: 233, 42
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+images/geo/arm_R
+  rotate: false
+  xy: 475, 26
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+images/geo/belt
+  rotate: true
+  xy: 128, 42
+  size: 72, 66
+  orig: 72, 66
+  offset: 0, 0
+  index: -1
+images/geo/body
+  rotate: false
+  xy: 368, 54
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+images/geo/body_accesary
+  rotate: false
+  xy: 376, 5
+  size: 62, 47
+  orig: 62, 47
+  offset: 0, 0
+  index: -1
+images/geo/eye_L
+  rotate: true
+  xy: 262, 45
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+images/geo/eye_L_attack
+  rotate: false
+  xy: 499, 85
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+images/geo/eye_L_hit
+  rotate: false
+  xy: 506, 31
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+images/geo/eye_L_smile
+  rotate: true
+  xy: 531, 35
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+images/geo/eye_R
+  rotate: true
+  xy: 465, 80
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+images/geo/eye_R_attack
+  rotate: false
+  xy: 440, 21
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+images/geo/eye_R_hit
+  rotate: true
+  xy: 430, 80
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+images/geo/eye_R_smile
+  rotate: true
+  xy: 336, 45
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+images/geo/face
+  rotate: false
+  xy: 2, 5
+  size: 124, 109
+  orig: 124, 109
+  offset: 0, 0
+  index: -1
+images/geo/foot_L
+  rotate: true
+  xy: 185, 7
+  size: 33, 52
+  orig: 33, 52
+  offset: 0, 0
+  index: -1
+images/geo/foot_R
+  rotate: true
+  xy: 128, 6
+  size: 34, 55
+  orig: 34, 55
+  offset: 0, 0
+  index: -1
+images/geo/hand_L
+  rotate: false
+  xy: 500, 2
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+images/geo/hand_L_SIDE
+  rotate: true
+  xy: 496, 59
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+images/geo/hand_L_UP
+  rotate: true
+  xy: 475, 3
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+images/geo/hand_R
+  rotate: false
+  xy: 519, 60
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+images/geo/hand_R_SIDE
+  rotate: false
+  xy: 524, 89
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+images/geo/hand_R_UP
+  rotate: true
+  xy: 523, 3
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+images/geo/leg_L
+  rotate: true
+  xy: 294, 45
+  size: 27, 40
+  orig: 27, 40
+  offset: 0, 0
+  index: -1
+images/geo/leg_R
+  rotate: true
+  xy: 324, 78
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+images/geo/mouth_attack
+  rotate: true
+  xy: 290, 4
+  size: 39, 46
+  orig: 39, 46
+  offset: 0, 0
+  index: -1
+images/geo/mouth_hit
+  rotate: true
+  xy: 338, 3
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+images/geo/mouth_smile
+  rotate: true
+  xy: 283, 74
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+images/geo/neck_accesary
+  rotate: false
+  xy: 196, 43
+  size: 35, 25
+  orig: 35, 25
+  offset: 0, 0
+  index: -1
+images/geo/pelvis
+  rotate: false
+  xy: 239, 5
+  size: 49, 35
+  orig: 49, 35
+  offset: 0, 0
+  index: -1
+images/geo/shoulder_L
+  rotate: true
+  xy: 463, 58
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+images/geo/shoulder_R
+  rotate: true
+  xy: 430, 56
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+images/geo/tail
+  rotate: false
+  xy: 196, 70
+  size: 85, 44
+  orig: 85, 44
+  offset: 0, 0
+  index: -1
+
+monk8.png
+size: 40,41
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/geo/Lv.1/Lv.1.mouth
+  rotate: false
+  xy: 2, 2
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+
+monk9.png
+size: 321,118
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/geo/Lv.2/Lv.2.belt
+  rotate: false
+  xy: 147, 50
+  size: 72, 66
+  orig: 72, 66
+  offset: 0, 0
+  index: -1
+images/geo/Lv.2/Lv.2.face
+  rotate: false
+  xy: 2, 5
+  size: 143, 111
+  orig: 143, 111
+  offset: 0, 0
+  index: -1
+images/geo/Lv.2/Lv.2.foot_L
+  rotate: true
+  xy: 147, 2
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+images/geo/Lv.2/Lv.2.foot_R
+  rotate: true
+  xy: 221, 14
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+images/geo/Lv.2/Lv.2.mouth
+  rotate: true
+  xy: 279, 31
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+images/geo/Lv.2/Lv.2.tail
+  rotate: false
+  xy: 221, 71
+  size: 86, 45
+  orig: 86, 45
+  offset: 0, 0
+  index: -1
+
+monk10.png
+size: 284,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/npc_catgirl/arm_L
+  rotate: false
+  xy: 247, 216
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/arm_R
+  rotate: true
+  xy: 247, 268
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/body
+  rotate: false
+  xy: 130, 201
+  size: 60, 72
+  orig: 60, 72
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/body_accesary
+  rotate: false
+  xy: 245, 113
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/ear_L
+  rotate: false
+  xy: 130, 160
+  size: 71, 39
+  orig: 71, 39
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/ear_R
+  rotate: false
+  xy: 197, 277
+  size: 48, 67
+  orig: 48, 67
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_L
+  rotate: true
+  xy: 153, 2
+  size: 25, 32
+  orig: 25, 32
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_L_attack
+  rotate: true
+  xy: 217, 193
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_L_attack2
+  rotate: false
+  xy: 192, 209
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_L_close
+  rotate: true
+  xy: 186, 30
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_L_hit
+  rotate: false
+  xy: 219, 69
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_L_hit2
+  rotate: true
+  xy: 185, 124
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_L_sleep
+  rotate: false
+  xy: 219, 42
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_L_smile
+  rotate: true
+  xy: 247, 244
+  size: 22, 29
+  orig: 22, 29
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_R
+  rotate: true
+  xy: 185, 89
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_R_attack
+  rotate: false
+  xy: 187, 2
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_R_attack2
+  rotate: false
+  xy: 215, 247
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_R_close
+  rotate: true
+  xy: 186, 55
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_R_hit
+  rotate: false
+  xy: 246, 189
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_R_hit2
+  rotate: true
+  xy: 219, 96
+  size: 26, 24
+  orig: 26, 24
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_R_sleep
+  rotate: false
+  xy: 203, 166
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/eye_R_smile
+  rotate: true
+  xy: 217, 218
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/face
+  rotate: true
+  xy: 197, 346
+  size: 82, 81
+  orig: 82, 81
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/foot_L
+  rotate: false
+  xy: 247, 295
+  size: 29, 49
+  orig: 29, 49
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/foot_R
+  rotate: false
+  xy: 73, 10
+  size: 30, 53
+  orig: 30, 53
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hair_accessary
+  rotate: false
+  xy: 2, 163
+  size: 126, 110
+  orig: 126, 110
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hair_back
+  rotate: false
+  xy: 2, 65
+  size: 101, 96
+  orig: 101, 96
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hair_back_accessary
+  rotate: true
+  xy: 197, 430
+  size: 91, 79
+  orig: 91, 79
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hair_front
+  rotate: false
+  xy: 2, 2
+  size: 69, 61
+  orig: 69, 61
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hair_front_R
+  rotate: false
+  xy: 118, 52
+  size: 33, 60
+  orig: 33, 60
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hand_L
+  rotate: false
+  xy: 246, 80
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hand_L_SIDE
+  rotate: true
+  xy: 246, 61
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hand_L_UP
+  rotate: false
+  xy: 244, 38
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hand_R
+  rotate: false
+  xy: 243, 163
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hand_R_SIDE
+  rotate: false
+  xy: 232, 137
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/hand_R_UP
+  rotate: false
+  xy: 219, 15
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/leg_L
+  rotate: true
+  xy: 105, 19
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/leg_R
+  rotate: false
+  xy: 153, 69
+  size: 30, 43
+  orig: 30, 43
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/mouth
+  rotate: false
+  xy: 245, 103
+  size: 21, 8
+  orig: 21, 8
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/mouth_attack
+  rotate: true
+  xy: 231, 166
+  size: 25, 10
+  orig: 25, 10
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/mouth_attack2
+  rotate: false
+  xy: 211, 124
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/mouth_hit
+  rotate: false
+  xy: 105, 2
+  size: 25, 15
+  orig: 25, 15
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/mouth_hit2
+  rotate: false
+  xy: 219, 4
+  size: 21, 9
+  orig: 21, 9
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/mouth_sleep
+  rotate: false
+  xy: 132, 7
+  size: 18, 10
+  orig: 18, 10
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/mouth_smile
+  rotate: true
+  xy: 255, 137
+  size: 24, 14
+  orig: 24, 14
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/neck_accessary
+  rotate: true
+  xy: 244, 16
+  size: 20, 9
+  orig: 20, 9
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/nose
+  rotate: true
+  xy: 278, 516
+  size: 5, 4
+  orig: 5, 4
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/pelvis
+  rotate: true
+  xy: 153, 29
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/pelvis_back
+  rotate: false
+  xy: 118, 114
+  size: 65, 44
+  orig: 65, 44
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/shoulder_L
+  rotate: false
+  xy: 211, 137
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/shoulder_R
+  rotate: false
+  xy: 192, 240
+  size: 21, 33
+  orig: 21, 33
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/tail
+  rotate: true
+  xy: 105, 52
+  size: 109, 11
+  orig: 109, 11
+  offset: 0, 0
+  index: -1
+images/npc_catgirl/temp (2)
+  rotate: false
+  xy: 2, 275
+  size: 193, 246
+  orig: 193, 246
+  offset: 0, 0
+  index: -1
+
+monk11.png
+size: 364,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rin/eye_L
+  rotate: false
+  xy: 267, 81
+  size: 22, 35
+  orig: 22, 35
+  offset: 0, 0
+  index: -1
+images/rin/eye_L_attack
+  rotate: false
+  xy: 248, 29
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+images/rin/eye_L_hit
+  rotate: true
+  xy: 326, 85
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+images/rin/eye_L_smile
+  rotate: false
+  xy: 272, 31
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+images/rin/eye_R
+  rotate: true
+  xy: 206, 6
+  size: 28, 35
+  orig: 28, 35
+  offset: 0, 0
+  index: -1
+images/rin/eye_R_attack
+  rotate: false
+  xy: 293, 125
+  size: 31, 34
+  orig: 31, 34
+  offset: 0, 0
+  index: -1
+images/rin/eye_R_hit
+  rotate: true
+  xy: 294, 98
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+images/rin/eye_R_smile
+  rotate: true
+  xy: 243, 2
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+images/rin/face
+  rotate: false
+  xy: 206, 118
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+images/rin/hair_front
+  rotate: false
+  xy: 293, 161
+  size: 69, 42
+  orig: 69, 42
+  offset: 0, 0
+  index: -1
+images/rin/hair_front_L
+  rotate: true
+  xy: 326, 132
+  size: 27, 36
+  orig: 27, 36
+  offset: 0, 0
+  index: -1
+images/rin/hair_front_R
+  rotate: true
+  xy: 326, 106
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+images/rin/hand_L
+  rotate: false
+  xy: 294, 23
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+images/rin/hand_L_SIDE
+  rotate: false
+  xy: 276, 9
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+images/rin/hand_L_UP
+  rotate: true
+  xy: 294, 5
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+images/rin/hand_R
+  rotate: true
+  xy: 292, 65
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+images/rin/hand_R_SIDE
+  rotate: true
+  xy: 267, 63
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+images/rin/hand_R_UP
+  rotate: false
+  xy: 294, 43
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+images/rin/mouth
+  rotate: false
+  xy: 2, 4
+  size: 15, 3
+  orig: 15, 3
+  offset: 0, 0
+  index: -1
+images/rin/mouth_attack
+  rotate: false
+  xy: 311, 89
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+images/rin/mouth_hit
+  rotate: true
+  xy: 314, 24
+  size: 17, 8
+  orig: 17, 8
+  offset: 0, 0
+  index: -1
+images/rin/mouth_smile
+  rotate: false
+  xy: 291, 87
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+images/rin/nose
+  rotate: true
+  xy: 243, 32
+  size: 2, 3
+  orig: 2, 3
+  offset: 0, 0
+  index: -1
+images/rin/pelvis
+  rotate: false
+  xy: 206, 36
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+images/rin/pelvis_back_accesary
+  rotate: false
+  xy: 206, 62
+  size: 59, 54
+  orig: 59, 54
+  offset: 0, 0
+  index: -1
+images/rin/temp
+  rotate: true
+  xy: 2, 9
+  size: 194, 202
+  orig: 194, 202
+  offset: 0, 0
+  index: -1
+
+monk12.png
+size: 413,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rin/Lv.1/Lv.1.arm_L
+  rotate: false
+  xy: 205, 5
+  size: 21, 25
+  orig: 21, 25
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.arm_R
+  rotate: true
+  xy: 228, 6
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.body
+  rotate: true
+  xy: 262, 3
+  size: 34, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.foot_L
+  rotate: true
+  xy: 126, 2
+  size: 28, 45
+  orig: 28, 45
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.foot_R
+  rotate: true
+  xy: 357, 9
+  size: 29, 47
+  orig: 29, 47
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.hair_back
+  rotate: false
+  xy: 2, 4
+  size: 122, 98
+  orig: 122, 98
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.hair_back_tail_L
+  rotate: true
+  xy: 126, 32
+  size: 70, 102
+  orig: 70, 102
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.hair_back_tail_R
+  rotate: true
+  xy: 274, 40
+  size: 62, 102
+  orig: 62, 102
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.leg_L
+  rotate: true
+  xy: 173, 5
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.leg_R
+  rotate: true
+  xy: 378, 40
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.pelvis_armor
+  rotate: true
+  xy: 230, 39
+  size: 63, 42
+  orig: 63, 42
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.pelvis_armor_MID
+  rotate: true
+  xy: 378, 71
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.shoulder_L
+  rotate: false
+  xy: 335, 8
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+images/rin/Lv.1/Lv.1.shoulder_R
+  rotate: false
+  xy: 311, 7
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+
+monk13.png
+size: 210,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rin/Lv.2/Lv.2.arm_L
+  rotate: false
+  xy: 49, 5
+  size: 21, 25
+  orig: 21, 25
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.arm_R
+  rotate: false
+  xy: 184, 179
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.body
+  rotate: true
+  xy: 86, 6
+  size: 34, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.foot_L
+  rotate: true
+  xy: 2, 2
+  size: 28, 45
+  orig: 28, 45
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.foot_R
+  rotate: false
+  xy: 178, 102
+  size: 29, 47
+  orig: 29, 47
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.hair_back
+  rotate: false
+  xy: 2, 178
+  size: 147, 98
+  orig: 147, 98
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.hair_back_tail_L
+  rotate: false
+  xy: 86, 42
+  size: 90, 134
+  orig: 90, 134
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.hair_back_tail_R
+  rotate: false
+  xy: 2, 32
+  size: 82, 144
+  orig: 82, 144
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.leg_L
+  rotate: true
+  xy: 178, 151
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.leg_R
+  rotate: false
+  xy: 178, 45
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.pelvis_armor
+  rotate: true
+  xy: 151, 213
+  size: 63, 42
+  orig: 63, 42
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.pelvis_armor_MID
+  rotate: false
+  xy: 151, 178
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.shoulder_L
+  rotate: true
+  xy: 178, 80
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+images/rin/Lv.2/Lv.2.shoulder_R
+  rotate: false
+  xy: 135, 9
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+
+monk14.png
+size: 411,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rukina/arm_L
+  rotate: false
+  xy: 386, 67
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+images/rukina/arm_R
+  rotate: true
+  xy: 142, 9
+  size: 21, 31
+  orig: 21, 31
+  offset: 0, 0
+  index: -1
+images/rukina/body
+  rotate: true
+  xy: 262, 40
+  size: 38, 29
+  orig: 38, 29
+  offset: 0, 0
+  index: -1
+images/rukina/eye_L_attack
+  rotate: false
+  xy: 386, 17
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+images/rukina/eye_L_hit
+  rotate: true
+  xy: 387, 102
+  size: 21, 14
+  orig: 21, 14
+  offset: 0, 0
+  index: -1
+images/rukina/eye_L_smile
+  rotate: true
+  xy: 386, 45
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+images/rukina/eye_R_attack
+  rotate: true
+  xy: 178, 14
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+images/rukina/eye_R_hit
+  rotate: true
+  xy: 125, 2
+  size: 28, 15
+  orig: 28, 15
+  offset: 0, 0
+  index: -1
+images/rukina/eye_R_smile
+  rotate: false
+  xy: 206, 14
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+images/rukina/face
+  rotate: true
+  xy: 294, 12
+  size: 78, 90
+  orig: 78, 90
+  offset: 0, 0
+  index: -1
+images/rukina/hair_back
+  rotate: false
+  xy: 2, 32
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+images/rukina/hair_back_accesary
+  rotate: false
+  xy: 178, 80
+  size: 114, 123
+  orig: 114, 123
+  offset: 0, 0
+  index: -1
+images/rukina/hair_front
+  rotate: false
+  xy: 294, 92
+  size: 91, 111
+  orig: 91, 111
+  offset: 0, 0
+  index: -1
+images/rukina/hand_L
+  rotate: false
+  xy: 387, 148
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+images/rukina/hand_L_SIDE
+  rotate: false
+  xy: 387, 125
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+images/rukina/hand_L_UP
+  rotate: false
+  xy: 232, 28
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+images/rukina/leg_L
+  rotate: true
+  xy: 2, 5
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+images/rukina/leg_R
+  rotate: true
+  xy: 46, 3
+  size: 27, 38
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+images/rukina/mouth_attack
+  rotate: true
+  xy: 387, 92
+  size: 8, 3
+  orig: 8, 3
+  offset: 0, 0
+  index: -1
+images/rukina/mouth_closed
+  rotate: true
+  xy: 392, 92
+  size: 8, 3
+  orig: 8, 3
+  offset: 0, 0
+  index: -1
+images/rukina/mouth_hit
+  rotate: false
+  xy: 232, 15
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+images/rukina/nose
+  rotate: false
+  xy: 142, 4
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+images/rukina/pelvis
+  rotate: false
+  xy: 178, 40
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+images/rukina/shoulder_L
+  rotate: false
+  xy: 387, 170
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+images/rukina/shoulder_R
+  rotate: true
+  xy: 86, 3
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+images/rukina/tail
+  rotate: false
+  xy: 219, 48
+  size: 41, 30
+  orig: 41, 30
+  offset: 0, 0
+  index: -1
+
+monk15.png
+size: 157,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rukina/Lv.1/Lv.1.body_accesary
+  rotate: true
+  xy: 135, 163
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.body_cloth
+  rotate: true
+  xy: 128, 113
+  size: 48, 26
+  orig: 48, 26
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.eye_L
+  rotate: false
+  xy: 135, 238
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.eye_L - ©R©s₩[
+  rotate: false
+  xy: 135, 186
+  size: 18, 25
+  orig: 18, 25
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.eye_R
+  rotate: false
+  xy: 128, 83
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.foot_L
+  rotate: true
+  xy: 68, 27
+  size: 28, 46
+  orig: 28, 46
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.foot_R
+  rotate: true
+  xy: 68, 57
+  size: 36, 53
+  orig: 36, 53
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.hair_front_accesary
+  rotate: true
+  xy: 123, 11
+  size: 70, 29
+  orig: 70, 29
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.mouth
+  rotate: false
+  xy: 128, 164
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.weapon
+  rotate: false
+  xy: 2, 172
+  size: 131, 92
+  orig: 131, 92
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.weapon_SIDE
+  rotate: false
+  xy: 2, 95
+  size: 124, 75
+  orig: 124, 75
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.weapon_UP
+  rotate: false
+  xy: 2, 7
+  size: 64, 74
+  orig: 64, 74
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.wing_L
+  rotate: false
+  xy: 135, 213
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.1/Lv.1.wing_R
+  rotate: false
+  xy: 68, 2
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+
+monk16.png
+size: 525,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rukina/Lv.2/Lv.2.body_accesary
+  rotate: false
+  xy: 483, 12
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.body_cloth
+  rotate: false
+  xy: 108, 11
+  size: 56, 27
+  orig: 56, 27
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.eye_L
+  rotate: false
+  xy: 502, 111
+  size: 21, 28
+  orig: 21, 28
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.eye_R
+  rotate: true
+  xy: 483, 40
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.foot_L
+  rotate: true
+  xy: 166, 10
+  size: 32, 46
+  orig: 32, 46
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.foot_R
+  rotate: true
+  xy: 2, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.hair_back_accesary
+  rotate: true
+  xy: 53, 9
+  size: 29, 53
+  orig: 29, 53
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.hair_front_accesary
+  rotate: false
+  xy: 214, 2
+  size: 83, 52
+  orig: 83, 52
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.mouth
+  rotate: false
+  xy: 154, 44
+  size: 16, 10
+  orig: 16, 10
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.shoulder_L_accesary
+  rotate: true
+  xy: 299, 3
+  size: 51, 80
+  orig: 51, 80
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.weapon
+  rotate: false
+  xy: 2, 40
+  size: 150, 99
+  orig: 150, 99
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.weapon_SIDE
+  rotate: false
+  xy: 154, 56
+  size: 163, 83
+  orig: 163, 83
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.weapon_UP
+  rotate: true
+  xy: 420, 66
+  size: 73, 80
+  orig: 73, 80
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.wing_L
+  rotate: true
+  xy: 381, 2
+  size: 59, 100
+  orig: 59, 100
+  offset: 0, 0
+  index: -1
+images/rukina/Lv.2/Lv.2.wing_R
+  rotate: true
+  xy: 319, 63
+  size: 76, 99
+  orig: 76, 99
+  offset: 0, 0
+  index: -1
+
+monk17.png
+size: 269,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rusiola/arm_L
+  rotate: true
+  xy: 217, 81
+  size: 33, 50
+  orig: 33, 50
+  offset: 0, 0
+  index: -1
+images/rusiola/arm_R
+  rotate: false
+  xy: 217, 116
+  size: 50, 49
+  orig: 50, 49
+  offset: 0, 0
+  index: -1
+images/rusiola/body
+  rotate: false
+  xy: 127, 25
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+images/rusiola/eye_L_attack
+  rotate: true
+  xy: 223, 170
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+images/rusiola/eye_L_hit
+  rotate: true
+  xy: 149, 2
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+images/rusiola/eye_L_smile
+  rotate: false
+  xy: 162, 38
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+images/rusiola/eye_R_attack
+  rotate: false
+  xy: 223, 196
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+images/rusiola/eye_R_hit
+  rotate: false
+  xy: 193, 34
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+images/rusiola/eye_R_smile
+  rotate: false
+  xy: 224, 34
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+images/rusiola/face
+  rotate: false
+  xy: 127, 81
+  size: 88, 84
+  orig: 88, 84
+  offset: 0, 0
+  index: -1
+images/rusiola/hair_back
+  rotate: true
+  xy: 2, 15
+  size: 97, 123
+  orig: 97, 123
+  offset: 0, 0
+  index: -1
+images/rusiola/hair_back_tail
+  rotate: false
+  xy: 2, 114
+  size: 123, 153
+  orig: 123, 153
+  offset: 0, 0
+  index: -1
+images/rusiola/hair_front
+  rotate: false
+  xy: 127, 167
+  size: 94, 100
+  orig: 94, 100
+  offset: 0, 0
+  index: -1
+images/rusiola/hand_L
+  rotate: false
+  xy: 229, 14
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+images/rusiola/hand_L_SIDE
+  rotate: false
+  xy: 211, 13
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+images/rusiola/hand_L_UP
+  rotate: false
+  xy: 252, 38
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+images/rusiola/hand_R
+  rotate: false
+  xy: 127, 2
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1
+images/rusiola/hand_R_SIDE
+  rotate: false
+  xy: 190, 11
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+images/rusiola/hand_R_UP
+  rotate: true
+  xy: 252, 19
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+images/rusiola/hip
+  rotate: false
+  xy: 223, 231
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+images/rusiola/mouth_attack
+  rotate: false
+  xy: 254, 217
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+images/rusiola/mouth_hit
+  rotate: true
+  xy: 2, 2
+  size: 11, 4
+  orig: 11, 4
+  offset: 0, 0
+  index: -1
+images/rusiola/mouth_smile
+  rotate: true
+  xy: 254, 198
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+images/rusiola/neck
+  rotate: false
+  xy: 193, 53
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+images/rusiola/nose
+  rotate: true
+  xy: 247, 30
+  size: 2, 3
+  orig: 2, 3
+  offset: 0, 0
+  index: -1
+images/rusiola/shoulder_L
+  rotate: false
+  xy: 170, 2
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+images/rusiola/shoulder_R
+  rotate: true
+  xy: 223, 59
+  size: 20, 34
+  orig: 20, 34
+  offset: 0, 0
+  index: -1
+
+monk18.png
+size: 200,62
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rusiola/Lv.1/Lv.1.eye_L
+  rotate: false
+  xy: 174, 3
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.1/Lv.1.eye_R
+  rotate: true
+  xy: 141, 3
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.1/Lv.1.foot_L
+  rotate: true
+  xy: 102, 34
+  size: 26, 47
+  orig: 26, 47
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.1/Lv.1.foot_R
+  rotate: true
+  xy: 49, 29
+  size: 31, 51
+  orig: 31, 51
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.1/Lv.1.hair_back_accesary
+  rotate: false
+  xy: 49, 2
+  size: 35, 25
+  orig: 35, 25
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.1/Lv.1.leg_L
+  rotate: true
+  xy: 151, 36
+  size: 24, 40
+  orig: 24, 40
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.1/Lv.1.leg_R
+  rotate: true
+  xy: 102, 3
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.1/Lv.1.mouth
+  rotate: false
+  xy: 2, 5
+  size: 15, 3
+  orig: 15, 3
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.1/Lv.1.pelvis
+  rotate: false
+  xy: 2, 10
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+
+monk19.png
+size: 333,172
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rusiola/Lv.2/Lv.2.body
+  rotate: false
+  xy: 174, 40
+  size: 47, 44
+  orig: 47, 44
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.body_back
+  rotate: false
+  xy: 251, 20
+  size: 45, 18
+  orig: 45, 18
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.eye_L
+  rotate: false
+  xy: 225, 10
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.eye_R
+  rotate: false
+  xy: 299, 83
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.foot_L
+  rotate: true
+  xy: 174, 8
+  size: 30, 49
+  orig: 30, 49
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.foot_R
+  rotate: false
+  xy: 299, 117
+  size: 32, 53
+  orig: 32, 53
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.hair_back
+  rotate: true
+  xy: 2, 8
+  size: 162, 170
+  orig: 162, 170
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.hair_back_accesary
+  rotate: false
+  xy: 174, 86
+  size: 83, 84
+  orig: 83, 84
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.leg_L
+  rotate: false
+  xy: 223, 42
+  size: 26, 42
+  orig: 26, 42
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.leg_R
+  rotate: true
+  xy: 251, 40
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.mouth
+  rotate: false
+  xy: 2, 2
+  size: 16, 4
+  orig: 16, 4
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.pelvis_armor
+  rotate: true
+  xy: 259, 78
+  size: 92, 38
+  orig: 92, 38
+  offset: 0, 0
+  index: -1
+images/rusiola/Lv.2/Lv.2.pelvis_armor_MID
+  rotate: true
+  xy: 300, 30
+  size: 51, 20
+  orig: 51, 20
+  offset: 0, 0
+  index: -1
+
+monk20.png
+size: 427,189
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shuri/arm_L
+  rotate: true
+  xy: 350, 40
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+images/shuri/arm_R
+  rotate: false
+  xy: 350, 62
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+images/shuri/body
+  rotate: false
+  xy: 281, 43
+  size: 39, 55
+  orig: 39, 55
+  offset: 0, 0
+  index: -1
+images/shuri/eye_L
+  rotate: false
+  xy: 375, 72
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+images/shuri/eye_L_attack
+  rotate: false
+  xy: 378, 36
+  size: 23, 34
+  orig: 23, 34
+  offset: 0, 0
+  index: -1
+images/shuri/eye_L_hit
+  rotate: false
+  xy: 372, 7
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: -1
+images/shuri/eye_L_smile
+  rotate: false
+  xy: 403, 43
+  size: 22, 29
+  orig: 22, 29
+  offset: 0, 0
+  index: -1
+images/shuri/eye_R
+  rotate: false
+  xy: 395, 149
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+images/shuri/eye_R_attack
+  rotate: false
+  xy: 395, 111
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+images/shuri/eye_R_hit
+  rotate: false
+  xy: 344, 7
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+images/shuri/eye_R_smile
+  rotate: true
+  xy: 364, 110
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+images/shuri/face
+  rotate: false
+  xy: 281, 100
+  size: 81, 87
+  orig: 81, 87
+  offset: 0, 0
+  index: -1
+images/shuri/foot_L
+  rotate: false
+  xy: 322, 45
+  size: 26, 53
+  orig: 26, 53
+  offset: 0, 0
+  index: -1
+images/shuri/foot_R
+  rotate: false
+  xy: 364, 135
+  size: 29, 52
+  orig: 29, 52
+  offset: 0, 0
+  index: -1
+images/shuri/mouth
+  rotate: false
+  xy: 2, 2
+  size: 6, 4
+  orig: 6, 4
+  offset: 0, 0
+  index: -1
+images/shuri/mouth_attack
+  rotate: false
+  xy: 301, 8
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+images/shuri/mouth_hit
+  rotate: true
+  xy: 394, 20
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+images/shuri/mouth_smile
+  rotate: false
+  xy: 281, 5
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+images/shuri/nose
+  rotate: false
+  xy: 344, 2
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+images/shuri/pelvis
+  rotate: false
+  xy: 281, 19
+  size: 38, 22
+  orig: 38, 22
+  offset: 0, 0
+  index: -1
+images/shuri/shoulder_L
+  rotate: false
+  xy: 321, 2
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+images/shuri/shoulder_R
+  rotate: false
+  xy: 400, 74
+  size: 25, 35
+  orig: 25, 35
+  offset: 0, 0
+  index: -1
+images/shuri/temp
+  rotate: true
+  xy: 2, 8
+  size: 179, 277
+  orig: 179, 277
+  offset: 0, 0
+  index: -1
+
+monk21.png
+size: 350,282
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shuri/Lv.1/Lv.1.hair_UP1
+  rotate: true
+  xy: 267, 142
+  size: 59, 38
+  orig: 59, 38
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hair_UP2
+  rotate: false
+  xy: 267, 203
+  size: 47, 77
+  orig: 47, 77
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hair_UP3
+  rotate: false
+  xy: 295, 95
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hair_UP4
+  rotate: true
+  xy: 256, 63
+  size: 77, 37
+  orig: 77, 37
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hair_back
+  rotate: false
+  xy: 143, 147
+  size: 122, 133
+  orig: 122, 133
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hair_front
+  rotate: false
+  xy: 143, 16
+  size: 111, 129
+  orig: 111, 129
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hair_front_accesary
+  rotate: false
+  xy: 256, 16
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hand_L
+  rotate: true
+  xy: 299, 2
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hand_L_SIDE
+  rotate: false
+  xy: 324, 38
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hand_L_UP
+  rotate: false
+  xy: 295, 63
+  size: 26, 30
+  orig: 26, 30
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hand_R
+  rotate: false
+  xy: 323, 70
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hand_R_SIDE
+  rotate: false
+  xy: 322, 104
+  size: 21, 33
+  orig: 21, 33
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.hand_R_UP
+  rotate: false
+  xy: 299, 28
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.leg_L
+  rotate: false
+  xy: 316, 189
+  size: 31, 43
+  orig: 31, 43
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.leg_R
+  rotate: false
+  xy: 316, 234
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.shell
+  rotate: false
+  xy: 2, 12
+  size: 139, 268
+  orig: 139, 268
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.1/Lv.1.skirt
+  rotate: true
+  xy: 307, 139
+  size: 48, 29
+  orig: 48, 29
+  offset: 0, 0
+  index: -1
+
+monk22.png
+size: 393,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shuri/Lv.2/Lv.2.hair_UP1
+  rotate: false
+  xy: 195, 49
+  size: 59, 38
+  orig: 59, 38
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hair_UP2
+  rotate: false
+  xy: 146, 49
+  size: 47, 78
+  orig: 47, 78
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hair_UP3
+  rotate: false
+  xy: 256, 45
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hair_UP4
+  rotate: false
+  xy: 195, 89
+  size: 77, 38
+  orig: 77, 38
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hair_back
+  rotate: false
+  xy: 146, 129
+  size: 132, 141
+  orig: 132, 141
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hair_back _L
+  rotate: true
+  xy: 324, 95
+  size: 24, 52
+  orig: 24, 52
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hair_front
+  rotate: false
+  xy: 280, 121
+  size: 111, 149
+  orig: 111, 149
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hair_front_accesary
+  rotate: true
+  xy: 146, 6
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hand_L
+  rotate: false
+  xy: 287, 5
+  size: 35, 38
+  orig: 35, 38
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hand_L_SIDE
+  rotate: false
+  xy: 349, 54
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hand_L_UP
+  rotate: false
+  xy: 324, 6
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hand_R
+  rotate: false
+  xy: 360, 14
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hand_R_SIDE
+  rotate: false
+  xy: 317, 47
+  size: 30, 41
+  orig: 30, 41
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.hand_R_UP
+  rotate: true
+  xy: 243, 13
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.leg_L
+  rotate: false
+  xy: 283, 45
+  size: 32, 43
+  orig: 32, 43
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.leg_R
+  rotate: true
+  xy: 195, 16
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.shell
+  rotate: false
+  xy: 2, 2
+  size: 142, 268
+  orig: 142, 268
+  offset: 0, 0
+  index: -1
+images/shuri/Lv.2/Lv.2.skirt
+  rotate: false
+  xy: 274, 90
+  size: 48, 29
+  orig: 48, 29
+  offset: 0, 0
+  index: -1
+
+monk23.png
+size: 475,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/urd/arm_L
+  rotate: true
+  xy: 418, 24
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+images/urd/arm_R
+  rotate: false
+  xy: 454, 79
+  size: 19, 28
+  orig: 19, 28
+  offset: 0, 0
+  index: -1
+images/urd/body
+  rotate: false
+  xy: 191, 21
+  size: 32, 37
+  orig: 32, 37
+  offset: 0, 0
+  index: -1
+images/urd/eye_L
+  rotate: false
+  xy: 291, 2
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+images/urd/eye_L_attack
+  rotate: false
+  xy: 318, 4
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+images/urd/eye_L_hit
+  rotate: false
+  xy: 418, 44
+  size: 28, 20
+  orig: 28, 20
+  offset: 0, 0
+  index: -1
+images/urd/eye_L_sleep
+  rotate: true
+  xy: 385, 14
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+images/urd/eye_L_smile
+  rotate: true
+  xy: 385, 37
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+images/urd/eye_R
+  rotate: false
+  xy: 259, 27
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+images/urd/eye_R_attack
+  rotate: false
+  xy: 225, 27
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+images/urd/eye_R_hit
+  rotate: false
+  xy: 245, 5
+  size: 32, 20
+  orig: 32, 20
+  offset: 0, 0
+  index: -1
+images/urd/eye_R_sleep
+  rotate: true
+  xy: 352, 36
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+images/urd/eye_R_smile
+  rotate: true
+  xy: 415, 66
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+images/urd/face
+  rotate: false
+  xy: 332, 64
+  size: 81, 76
+  orig: 81, 76
+  offset: 0, 0
+  index: -1
+images/urd/hair_back
+  rotate: false
+  xy: 2, 9
+  size: 132, 131
+  orig: 132, 131
+  offset: 0, 0
+  index: -1
+images/urd/hair_front
+  rotate: false
+  xy: 241, 60
+  size: 89, 80
+  orig: 89, 80
+  offset: 0, 0
+  index: -1
+images/urd/hair_front_accessary
+  rotate: false
+  xy: 136, 60
+  size: 103, 80
+  orig: 103, 80
+  offset: 0, 0
+  index: -1
+images/urd/hand_L
+  rotate: false
+  xy: 225, 2
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+images/urd/hand_L_SIDE
+  rotate: true
+  xy: 191, 2
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+images/urd/hand_L_UP
+  rotate: true
+  xy: 348, 2
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+images/urd/hand_R
+  rotate: false
+  xy: 330, 34
+  size: 20, 24
+  orig: 20, 24
+  offset: 0, 0
+  index: -1
+images/urd/hand_R_SIDE
+  rotate: true
+  xy: 447, 22
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+images/urd/hand_R_UP
+  rotate: true
+  xy: 448, 43
+  size: 21, 25
+  orig: 21, 25
+  offset: 0, 0
+  index: -1
+images/urd/mouth
+  rotate: false
+  xy: 2, 2
+  size: 12, 5
+  orig: 12, 5
+  offset: 0, 0
+  index: -1
+images/urd/mouth_attack
+  rotate: false
+  xy: 451, 66
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+images/urd/mouth_hit
+  rotate: true
+  xy: 214, 2
+  size: 17, 6
+  orig: 17, 6
+  offset: 0, 0
+  index: -1
+images/urd/mouth_sleep
+  rotate: false
+  xy: 332, 60
+  size: 7, 2
+  orig: 7, 2
+  offset: 0, 0
+  index: -1
+images/urd/mouth_smile
+  rotate: false
+  xy: 136, 13
+  size: 18, 4
+  orig: 18, 4
+  offset: 0, 0
+  index: -1
+images/urd/nose
+  rotate: false
+  xy: 279, 22
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+images/urd/pelvis
+  rotate: false
+  xy: 415, 98
+  size: 37, 42
+  orig: 37, 42
+  offset: 0, 0
+  index: -1
+images/urd/pelvis_accesary
+  rotate: false
+  xy: 136, 19
+  size: 53, 39
+  orig: 53, 39
+  offset: 0, 0
+  index: -1
+images/urd/shoulder_L
+  rotate: false
+  xy: 454, 109
+  size: 19, 31
+  orig: 19, 31
+  offset: 0, 0
+  index: -1
+images/urd/shoulder_R
+  rotate: true
+  xy: 291, 34
+  size: 24, 37
+  orig: 24, 37
+  offset: 0, 0
+  index: -1
+
+monk24.png
+size: 379,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/urd/Lv.1/Lv.1.bust
+  rotate: false
+  xy: 290, 69
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.foot_L
+  rotate: true
+  xy: 290, 98
+  size: 26, 45
+  orig: 26, 45
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.foot_R
+  rotate: false
+  xy: 261, 92
+  size: 27, 47
+  orig: 27, 47
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.foot_R_accessory
+  rotate: false
+  xy: 261, 73
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.leg_L
+  rotate: true
+  xy: 337, 95
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.leg_R
+  rotate: false
+  xy: 261, 141
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.pelvis_back
+  rotate: false
+  xy: 2, 2
+  size: 134, 67
+  orig: 134, 67
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.weapon
+  rotate: false
+  xy: 2, 71
+  size: 257, 104
+  orig: 257, 104
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.weapon_SIDE
+  rotate: false
+  xy: 2, 177
+  size: 289, 88
+  orig: 289, 88
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.weapon_UP
+  rotate: true
+  xy: 293, 126
+  size: 139, 81
+  orig: 139, 81
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.wing_L
+  rotate: true
+  xy: 226, 3
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: -1
+images/urd/Lv.1/Lv.1.wing_R
+  rotate: false
+  xy: 138, 9
+  size: 86, 60
+  orig: 86, 60
+  offset: 0, 0
+  index: -1
+
+monk25.png
+size: 300,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/urd/Lv.2/Lv.2.bust
+  rotate: false
+  xy: 255, 191
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.face_accessary
+  rotate: true
+  xy: 255, 405
+  size: 74, 23
+  orig: 74, 23
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.foot_L
+  rotate: false
+  xy: 255, 217
+  size: 26, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.foot_L_accessory
+  rotate: false
+  xy: 280, 412
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.foot_R
+  rotate: false
+  xy: 255, 354
+  size: 26, 49
+  orig: 26, 49
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.foot_R_accessory
+  rotate: true
+  xy: 87, 4
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.hair_accessory
+  rotate: true
+  xy: 255, 304
+  size: 48, 36
+  orig: 48, 36
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.hair_tail
+  rotate: true
+  xy: 255, 481
+  size: 40, 43
+  orig: 40, 43
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.leg_L
+  rotate: false
+  xy: 87, 25
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.leg_R
+  rotate: false
+  xy: 255, 263
+  size: 32, 39
+  orig: 32, 39
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.neck_accessary
+  rotate: true
+  xy: 289, 270
+  size: 32, 9
+  orig: 32, 9
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.pelvis_accesary
+  rotate: true
+  xy: 280, 437
+  size: 42, 13
+  orig: 42, 13
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.pelvis_back
+  rotate: true
+  xy: 226, 9
+  size: 175, 67
+  orig: 175, 67
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.shoulder_L
+  rotate: true
+  xy: 283, 229
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.shoulder_R
+  rotate: true
+  xy: 283, 245
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.weapon
+  rotate: true
+  xy: 118, 186
+  size: 335, 135
+  orig: 335, 135
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.weapon_SIDE
+  rotate: true
+  xy: 2, 144
+  size: 377, 114
+  orig: 377, 114
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.weapon_UP
+  rotate: true
+  xy: 118, 2
+  size: 182, 106
+  orig: 182, 106
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.wing_L
+  rotate: false
+  xy: 2, 3
+  size: 83, 62
+  orig: 83, 62
+  offset: 0, 0
+  index: -1
+images/urd/Lv.2/Lv.2.wing_R
+  rotate: false
+  xy: 2, 67
+  size: 108, 75
+  orig: 108, 75
+  offset: 0, 0
+  index: -1
+
+monk26.png
+size: 681,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/valkyrie/arm_L
+  rotate: true
+  xy: 517, 138
+  size: 65, 44
+  orig: 65, 44
+  offset: 0, 0
+  index: -1
+images/valkyrie/arm_L_accessary_back
+  rotate: false
+  xy: 626, 35
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+images/valkyrie/arm_R
+  rotate: false
+  xy: 563, 166
+  size: 73, 37
+  orig: 73, 37
+  offset: 0, 0
+  index: -1
+images/valkyrie/arm_R_accessary
+  rotate: false
+  xy: 560, 67
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+images/valkyrie/arm_R_accessary_back
+  rotate: false
+  xy: 455, 87
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: -1
+images/valkyrie/belt
+  rotate: false
+  xy: 523, 85
+  size: 35, 13
+  orig: 35, 13
+  offset: 0, 0
+  index: -1
+images/valkyrie/body_accessary
+  rotate: true
+  xy: 573, 25
+  size: 20, 24
+  orig: 20, 24
+  offset: 0, 0
+  index: -1
+images/valkyrie/body_accessary2
+  rotate: true
+  xy: 2, 4
+  size: 10, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_L
+  rotate: true
+  xy: 403, 58
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_L_attack
+  rotate: false
+  xy: 406, 29
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_L_hit
+  rotate: true
+  xy: 406, 2
+  size: 25, 21
+  orig: 25, 21
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_L_sleep
+  rotate: false
+  xy: 609, 141
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_L_smile
+  rotate: true
+  xy: 341, 58
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_R
+  rotate: true
+  xy: 544, 4
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_R_attack
+  rotate: true
+  xy: 544, 36
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_R_hit
+  rotate: false
+  xy: 573, 47
+  size: 28, 18
+  orig: 28, 18
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_R_sleep
+  rotate: false
+  xy: 372, 58
+  size: 29, 23
+  orig: 29, 23
+  offset: 0, 0
+  index: -1
+images/valkyrie/eye_R_smile
+  rotate: false
+  xy: 595, 67
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+images/valkyrie/face
+  rotate: false
+  xy: 432, 7
+  size: 110, 74
+  orig: 110, 74
+  offset: 0, 0
+  index: -1
+images/valkyrie/hair_UP
+  rotate: true
+  xy: 638, 136
+  size: 67, 39
+  orig: 67, 39
+  offset: 0, 0
+  index: -1
+images/valkyrie/hair_back
+  rotate: true
+  xy: 341, 83
+  size: 120, 112
+  orig: 120, 112
+  offset: 0, 0
+  index: -1
+images/valkyrie/hair_back_tail
+  rotate: false
+  xy: 234, 56
+  size: 105, 147
+  orig: 105, 147
+  offset: 0, 0
+  index: -1
+images/valkyrie/hair_front
+  rotate: true
+  xy: 455, 138
+  size: 65, 60
+  orig: 65, 60
+  offset: 0, 0
+  index: -1
+images/valkyrie/hair_front_L
+  rotate: true
+  xy: 523, 100
+  size: 36, 77
+  orig: 36, 77
+  offset: 0, 0
+  index: -1
+images/valkyrie/hair_front_R
+  rotate: true
+  xy: 234, 3
+  size: 51, 92
+  orig: 51, 92
+  offset: 0, 0
+  index: -1
+images/valkyrie/hair_front_accessary_L
+  rotate: true
+  xy: 635, 79
+  size: 55, 44
+  orig: 55, 44
+  offset: 0, 0
+  index: -1
+images/valkyrie/hair_front_accessary_R
+  rotate: false
+  xy: 328, 10
+  size: 76, 44
+  orig: 76, 44
+  offset: 0, 0
+  index: -1
+images/valkyrie/hand_L
+  rotate: true
+  xy: 599, 18
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+images/valkyrie/hand_L_SIDE
+  rotate: false
+  xy: 624, 11
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+images/valkyrie/hand_L_UP
+  rotate: true
+  xy: 573, 4
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+images/valkyrie/hand_R
+  rotate: false
+  xy: 586, 139
+  size: 21, 25
+  orig: 21, 25
+  offset: 0, 0
+  index: -1
+images/valkyrie/hand_R_SIDE
+  rotate: false
+  xy: 603, 40
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+images/valkyrie/hand_R_UP
+  rotate: false
+  xy: 563, 138
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+images/valkyrie/mouth
+  rotate: false
+  xy: 52, 12
+  size: 10, 2
+  orig: 10, 2
+  offset: 0, 0
+  index: -1
+images/valkyrie/mouth_attack
+  rotate: false
+  xy: 22, 5
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+images/valkyrie/mouth_hit
+  rotate: false
+  xy: 37, 8
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1
+images/valkyrie/mouth_sleep
+  rotate: false
+  xy: 51, 3
+  size: 10, 3
+  orig: 10, 3
+  offset: 0, 0
+  index: -1
+images/valkyrie/mouth_smile
+  rotate: false
+  xy: 37, 3
+  size: 12, 3
+  orig: 12, 3
+  offset: 0, 0
+  index: -1
+images/valkyrie/nose
+  rotate: true
+  xy: 52, 8
+  size: 2, 3
+  orig: 2, 3
+  offset: 0, 0
+  index: -1
+images/valkyrie/pelvis
+  rotate: true
+  xy: 602, 98
+  size: 39, 31
+  orig: 39, 31
+  offset: 0, 0
+  index: -1
+images/valkyrie/temp
+  rotate: true
+  xy: 2, 16
+  size: 187, 230
+  orig: 187, 230
+  offset: 0, 0
+  index: -1
+
+monk27.png
+size: 470,69
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/valkyrie/Lv.1/Lv.1.body
+  rotate: true
+  xy: 421, 31
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.foot_L
+  rotate: true
+  xy: 309, 4
+  size: 26, 49
+  orig: 26, 49
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.foot_R
+  rotate: true
+  xy: 91, 4
+  size: 29, 50
+  orig: 29, 50
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.hair_back_accesary
+  rotate: false
+  xy: 91, 35
+  size: 97, 32
+  orig: 97, 32
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.hair_front_accessary
+  rotate: false
+  xy: 258, 33
+  size: 60, 34
+  orig: 60, 34
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.leg_L
+  rotate: true
+  xy: 320, 32
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.leg_R
+  rotate: true
+  xy: 258, 2
+  size: 29, 49
+  orig: 29, 49
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.pelvis_accessary
+  rotate: false
+  xy: 360, 3
+  size: 52, 22
+  orig: 52, 22
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.pelvis_armor_L
+  rotate: true
+  xy: 371, 27
+  size: 40, 48
+  orig: 40, 48
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.pelvis_armor_R
+  rotate: true
+  xy: 190, 4
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.pelvis_back
+  rotate: false
+  xy: 2, 6
+  size: 87, 61
+  orig: 87, 61
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.shoulder_L
+  rotate: true
+  xy: 421, 7
+  size: 22, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.1/Lv.1.shoulder_R
+  rotate: true
+  xy: 143, 6
+  size: 27, 33
+  orig: 27, 33
+  offset: 0, 0
+  index: -1
+
+monk28.png
+size: 153,276
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/valkyrie/Lv.2/Lv.2.body
+  rotate: false
+  xy: 101, 112
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.foot_L
+  rotate: true
+  xy: 36, 56
+  size: 26, 49
+  orig: 26, 49
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.foot_R
+  rotate: true
+  xy: 101, 211
+  size: 27, 50
+  orig: 27, 50
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.hair_back_accesary
+  rotate: true
+  xy: 2, 53
+  size: 97, 32
+  orig: 97, 32
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.hair_front_accessary
+  rotate: false
+  xy: 91, 240
+  size: 60, 34
+  orig: 60, 34
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.hair_front_accessary_L
+  rotate: false
+  xy: 2, 2
+  size: 62, 49
+  orig: 62, 49
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.hair_front_accessary_R
+  rotate: false
+  xy: 2, 152
+  size: 74, 59
+  orig: 74, 59
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.leg_L
+  rotate: true
+  xy: 101, 83
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.leg_R
+  rotate: false
+  xy: 90, 3
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.pelvis_accessary
+  rotate: true
+  xy: 66, 2
+  size: 52, 22
+  orig: 52, 22
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.pelvis_armor_L
+  rotate: false
+  xy: 78, 161
+  size: 40, 48
+  orig: 40, 48
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.pelvis_armor_R
+  rotate: false
+  xy: 36, 84
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.pelvis_back
+  rotate: false
+  xy: 2, 213
+  size: 87, 61
+  orig: 87, 61
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.shoulder_L
+  rotate: false
+  xy: 120, 168
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+images/valkyrie/Lv.2/Lv.2.shoulder_R
+  rotate: false
+  xy: 90, 38
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+
+monk29.png
+size: 300,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yuna/arm_L
+  rotate: true
+  xy: 262, 67
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+images/yuna/arm_R
+  rotate: false
+  xy: 212, 2
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+images/yuna/belt
+  rotate: false
+  xy: 31, 4
+  size: 53, 23
+  orig: 53, 23
+  offset: 0, 0
+  index: -1
+images/yuna/belt_BACK
+  rotate: false
+  xy: 231, 210
+  size: 67, 57
+  orig: 67, 57
+  offset: 0, 0
+  index: -1
+images/yuna/body
+  rotate: true
+  xy: 217, 149
+  size: 39, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1
+images/yuna/body_FRONT
+  rotate: false
+  xy: 152, 88
+  size: 52, 60
+  orig: 52, 60
+  offset: 0, 0
+  index: -1
+images/yuna/eye_L
+  rotate: false
+  xy: 262, 91
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+images/yuna/eye_R
+  rotate: true
+  xy: 150, 2
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+images/yuna/eye_attack_L
+  rotate: false
+  xy: 270, 120
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+images/yuna/eye_attack_R
+  rotate: false
+  xy: 111, 2
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+images/yuna/eye_damage_L
+  rotate: true
+  xy: 238, 9
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+images/yuna/eye_damage_R
+  rotate: true
+  xy: 183, 2
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+images/yuna/eye_smile_L
+  rotate: false
+  xy: 2, 2
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+images/yuna/eye_smile_R
+  rotate: false
+  xy: 236, 120
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+images/yuna/face
+  rotate: false
+  xy: 2, 29
+  size: 107, 115
+  orig: 107, 115
+  offset: 0, 0
+  index: -1
+images/yuna/foot_L
+  rotate: false
+  xy: 206, 99
+  size: 28, 48
+  orig: 28, 48
+  offset: 0, 0
+  index: -1
+images/yuna/foot_L_accesary
+  rotate: false
+  xy: 286, 197
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+images/yuna/foot_R
+  rotate: true
+  xy: 152, 59
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+images/yuna/foot_R_accesary
+  rotate: false
+  xy: 264, 17
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+images/yuna/hair_FRONT
+  rotate: false
+  xy: 129, 198
+  size: 100, 69
+  orig: 100, 69
+  offset: 0, 0
+  index: -1
+images/yuna/hair_FRONT002
+  rotate: true
+  xy: 129, 150
+  size: 46, 86
+  orig: 46, 86
+  offset: 0, 0
+  index: -1
+images/yuna/hair_FRONT003
+  rotate: false
+  xy: 111, 59
+  size: 39, 85
+  orig: 39, 85
+  offset: 0, 0
+  index: -1
+images/yuna/hand_L
+  rotate: false
+  xy: 203, 36
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+images/yuna/hand_L_front
+  rotate: false
+  xy: 225, 36
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+images/yuna/hand_L_side
+  rotate: false
+  xy: 272, 46
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+images/yuna/hand_R
+  rotate: true
+  xy: 86, 5
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+images/yuna/hand_R_front
+  rotate: true
+  xy: 246, 38
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+images/yuna/hand_R_side
+  rotate: true
+  xy: 236, 100
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+images/yuna/leg_L
+  rotate: false
+  xy: 206, 57
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+images/yuna/leg_L_accesary
+  rotate: true
+  xy: 231, 190
+  size: 18, 53
+  orig: 18, 53
+  offset: 0, 0
+  index: -1
+images/yuna/leg_R
+  rotate: false
+  xy: 261, 149
+  size: 28, 39
+  orig: 28, 39
+  offset: 0, 0
+  index: -1
+images/yuna/leg_R_accesary
+  rotate: true
+  xy: 111, 36
+  size: 21, 58
+  orig: 21, 58
+  offset: 0, 0
+  index: -1
+images/yuna/mouth
+  rotate: false
+  xy: 217, 193
+  size: 11, 3
+  orig: 11, 3
+  offset: 0, 0
+  index: -1
+images/yuna/mouth_attack
+  rotate: false
+  xy: 272, 31
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+images/yuna/mouth_damage
+  rotate: false
+  xy: 237, 61
+  size: 18, 6
+  orig: 18, 6
+  offset: 0, 0
+  index: -1
+images/yuna/mouth_smile
+  rotate: true
+  xy: 290, 101
+  size: 17, 4
+  orig: 17, 4
+  offset: 0, 0
+  index: -1
+images/yuna/nose
+  rotate: false
+  xy: 257, 64
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+images/yuna/ponytale
+  rotate: false
+  xy: 2, 146
+  size: 125, 121
+  orig: 125, 121
+  offset: 0, 0
+  index: -1
+images/yuna/shoulder_L
+  rotate: true
+  xy: 171, 36
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+images/yuna/shoulder_R
+  rotate: false
+  xy: 237, 69
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+
+monk30.png
+size: 173,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yuna/Lv.2/Lv.2.body_FRONT
+  rotate: false
+  xy: 119, 80
+  size: 52, 60
+  orig: 52, 60
+  offset: 0, 0
+  index: -1
+images/yuna/Lv.2/Lv.2.foot_L_accesary
+  rotate: true
+  xy: 119, 25
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+images/yuna/Lv.2/Lv.2.foot_R_accesary
+  rotate: false
+  xy: 151, 62
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+images/yuna/Lv.2/Lv.2.hair_BACK_accesary
+  rotate: false
+  xy: 119, 40
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+images/yuna/Lv.2/Lv.2.hair_BACK_accesary_L
+  rotate: false
+  xy: 64, 25
+  size: 53, 115
+  orig: 53, 115
+  offset: 0, 0
+  index: -1
+images/yuna/Lv.2/Lv.2.hair_BACK_accesary_R
+  rotate: false
+  xy: 2, 15
+  size: 60, 125
+  orig: 60, 125
+  offset: 0, 0
+  index: -1
+images/yuna/Lv.2/Lv.2.shoulder_L_accesary
+  rotate: false
+  xy: 23, 2
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+images/yuna/Lv.2/Lv.2.shoulder_R_accesary
+  rotate: false
+  xy: 2, 2
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1

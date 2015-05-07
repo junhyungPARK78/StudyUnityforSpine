@@ -113,6 +113,7 @@
      <None Include="Assets\SpineExamples\Spine\Hero\license.txt" />
      <None Include="Assets\SpineExamples\Spine\Raptor\raptor.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\Spineboy\spineboy.atlas.txt" />
+     <None Include="Assets\SpineExamples\Spine\PJH\monk.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\FootSoldier\license.txt" />
      <None Include="Assets\spine-unity\Shaders\Bones.shader" />
      <None Include="Assets\SpineExamples\Spine\Dragon\dragon.atlas.txt" />
