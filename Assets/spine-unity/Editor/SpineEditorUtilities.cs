@@ -1,26 +1,26 @@
-﻿#pragma warning disable 0219
 /******************************************************************************
  * Spine Runtimes Software License
- * Version 2.1
+ * Version 2.3
  * 
- * Copyright (c) 2013, Esoteric Software
+ * Copyright (c) 2013-2015, Esoteric Software
  * All rights reserved.
  * 
  * You are granted a perpetual, non-exclusive, non-sublicensable and
- * non-transferable license to install, execute and perform the Spine Runtimes
- * Software (the "Software") solely for internal use. Without the written
- * permission of Esoteric Software (typically granted by licensing Spine), you
- * may not (a) modify, translate, adapt or otherwise create derivative works,
- * improvements of the Software or develop new applications using the Software
- * or (b) remove, delete, alter or obscure any trademarks or any copyright,
- * trademark, patent or other intellectual property or proprietary rights
- * notices on or in the Software, including any copy thereof. Redistributions
- * in binary or source form must include this license and terms.
+ * non-transferable license to use, install, execute and perform the Spine
+ * Runtimes Software (the "Software") and derivative works solely for personal
+ * or internal use. Without the written permission of Esoteric Software (see
+ * Section 2 of the Spine Software License Agreement), you may not (a) modify,
+ * translate, adapt or otherwise create derivative works, improvements of the
+ * Software or develop new applications using the Software or (b) remove,
+ * delete, alter or obscure any trademarks or any copyright, trademark, patent
+ * or other intellectual property or proprietary rights notices on or in the
+ * Software, including any copy thereof. Redistributions in binary or source
+ * form must include this license and terms.
  * 
  * THIS SOFTWARE IS PROVIDED BY ESOTERIC SOFTWARE "AS IS" AND ANY EXPRESS OR
  * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
  * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
- * EVENT SHALL ESOTERIC SOFTARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * EVENT SHALL ESOTERIC SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
  * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
  * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
  * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
@@ -28,6 +28,8 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
+
+#pragma warning disable 0219
 
 /*****************************************************************************
  * Spine Editor Utilities created by Mitch Thompson
@@ -272,9 +274,13 @@ public class SpineEditorUtilities : AssetPostprocessor {
 					imagePaths.Add(str);
 					break;
 				case ".json":
-					TextAsset spineDataFile = (TextAsset)AssetDatabase.LoadAssetAtPath(str, typeof(TextAsset));
-					if (IsValidSpineData(spineDataFile)) {
+					if (IsValidSpineData((TextAsset)AssetDatabase.LoadAssetAtPath(str, typeof(TextAsset))))
 						skeletonPaths.Add(str);
+					break;
+				case ".bytes":
+					if (str.ToLower().EndsWith(".skel.bytes")) {
+						if (IsValidSpineData((TextAsset)AssetDatabase.LoadAssetAtPath(str, typeof(TextAsset))))
+							skeletonPaths.Add(str);
 					}
 					break;
 			}
@@ -424,7 +430,9 @@ public class SpineEditorUtilities : AssetPostprocessor {
 
 
 	static bool CheckForValidAtlas (string atlasPath) {
-
+		return false;
+		//////////////DEPRECATED - always check for new atlas data now
+		/*
 		string dir = Path.GetDirectoryName(atlasPath);
 		TextAsset textAsset = (TextAsset)AssetDatabase.LoadAssetAtPath(atlasPath, typeof(TextAsset));
 		DirectoryInfo dirInfo = new DirectoryInfo(dir);
@@ -436,12 +444,37 @@ public class SpineEditorUtilities : AssetPostprocessor {
 			var obj = AssetDatabase.LoadAssetAtPath(localPath, typeof(Object));
 			if (obj is AtlasAsset) {
 				var atlasAsset = (AtlasAsset)obj;
-				if (atlasAsset.atlasFile == textAsset)
+				if (atlasAsset.atlasFile == textAsset) {
+
+					
+					Atlas atlas = atlasAsset.GetAtlas();
+					FieldInfo field = typeof(Atlas).GetField("regions", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.NonPublic);
+					List<AtlasRegion> regions = (List<AtlasRegion>)field.GetValue(atlas);
+					string atlasAssetPath = AssetDatabase.GetAssetPath(atlasAsset);
+					string atlasAssetDirPath = Path.GetDirectoryName(atlasAssetPath);
+					string bakedDirPath = Path.Combine(atlasAssetDirPath, atlasAsset.name);
+
+					for (int i = 0; i < regions.Count; i++) {
+						AtlasRegion region = regions[i];
+						string bakedPrefabPath = Path.Combine(bakedDirPath, SpineEditorUtilities.GetPathSafeRegionName(region) + ".prefab").Replace("\\", "/");
+						GameObject prefab = (GameObject)AssetDatabase.LoadAssetAtPath(bakedPrefabPath, typeof(GameObject));
+
+						if (prefab != null) {
+							Debug.Log("Updating: " + region.name);
+							BakeRegion(atlasAsset, region);
+						}
+					}
+					
+
 					return true;
+				}
+					
 			}
 		}
 
 		return false;
+	
+		*/
 	}
 
 	static List<AtlasAsset> MultiAtlasDialog (List<string> requiredPaths, string initialDirectory, string header = "") {
@@ -536,13 +569,23 @@ public class SpineEditorUtilities : AssetPostprocessor {
 		return (AtlasAsset)obj;
 	}
 
-	public static List<string> GetRequiredAtlasRegions (string jsonPath) {
+	static void AddRequiredAtlasRegionsFromBinary (string skeletonDataPath, List<string> requiredPaths) {
+		SkeletonBinary binary = new SkeletonBinary(new AtlasRequirementLoader(requiredPaths));
+		TextAsset data = (TextAsset)AssetDatabase.LoadAssetAtPath(skeletonDataPath, typeof(TextAsset));
+		MemoryStream input = new MemoryStream(data.bytes);
+		binary.ReadSkeletonData(input);
+		binary = null;
+	}
+
+	public static List<string> GetRequiredAtlasRegions (string skeletonDataPath) {
 		List<string> requiredPaths = new List<string>();
 
-		// FIXME - This doesn't work for a binary skeleton file!
-		if (jsonPath.Contains(".skel")) return requiredPaths;
+		if (skeletonDataPath.Contains(".skel")) {
+			AddRequiredAtlasRegionsFromBinary(skeletonDataPath, requiredPaths);
+			return requiredPaths;
+		}
 
-		TextAsset spineJson = (TextAsset)AssetDatabase.LoadAssetAtPath(jsonPath, typeof(TextAsset));
+		TextAsset spineJson = (TextAsset)AssetDatabase.LoadAssetAtPath(skeletonDataPath, typeof(TextAsset));
 
 		StringReader reader = new StringReader(spineJson.text);
 		var root = Json.Deserialize(reader) as Dictionary<string, object>;
@@ -556,7 +599,7 @@ public class SpineEditorUtilities : AssetPostprocessor {
 						if ((string)data["type"] == "boundingbox") {
 							continue;
 						}
-							
+
 					}
 					if (data.ContainsKey("path"))
 						requiredPaths.Add((string)data["path"]);
@@ -655,9 +698,14 @@ public class SpineEditorUtilities : AssetPostprocessor {
 
 		AtlasAsset atlasAsset = (AtlasAsset)AssetDatabase.LoadAssetAtPath(atlasPath, typeof(AtlasAsset));
 
+		List<Material> vestigialMaterials = new List<Material>();
 
 		if (atlasAsset == null)
 			atlasAsset = AtlasAsset.CreateInstance<AtlasAsset>();
+		else {
+			foreach (Material m in atlasAsset.materials)
+				vestigialMaterials.Add(m);
+		}
 
 		atlasAsset.atlasFile = atlasText;
 
@@ -679,6 +727,7 @@ public class SpineEditorUtilities : AssetPostprocessor {
 			Texture2D texture = (Texture2D)AssetDatabase.LoadAssetAtPath(texturePath, typeof(Texture2D));
 
 			TextureImporter texImporter = (TextureImporter)TextureImporter.GetAtPath(texturePath);
+			texImporter.textureType = TextureImporterType.Advanced;
 			texImporter.textureFormat = TextureImporterFormat.AutomaticTruecolor;
 			texImporter.mipmapEnabled = false;
 			texImporter.alphaIsTransparency = false;
@@ -700,6 +749,8 @@ public class SpineEditorUtilities : AssetPostprocessor {
 			if (mat == null) {
 				mat = new Material(Shader.Find(defaultShader));
 				AssetDatabase.CreateAsset(mat, materialPath);
+			} else {
+				vestigialMaterials.Remove(mat);
 			}
 
 			mat.mainTexture = texture;
@@ -710,14 +761,94 @@ public class SpineEditorUtilities : AssetPostprocessor {
 			atlasAsset.materials[i] = mat;
 		}
 
+		for (int i = 0; i < vestigialMaterials.Count; i++)
+			AssetDatabase.DeleteAsset(AssetDatabase.GetAssetPath(vestigialMaterials[i]));
+
 		if (AssetDatabase.GetAssetPath(atlasAsset) == "")
 			AssetDatabase.CreateAsset(atlasAsset, atlasPath);
 		else
 			atlasAsset.Reset();
 
+		EditorUtility.SetDirty(atlasAsset);
+
 		AssetDatabase.SaveAssets();
 
+
+		//iterate regions and bake marked
+		Atlas atlas = atlasAsset.GetAtlas();
+		FieldInfo field = typeof(Atlas).GetField("regions", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.NonPublic);
+		List<AtlasRegion> regions = (List<AtlasRegion>)field.GetValue(atlas);
+		string atlasAssetPath = AssetDatabase.GetAssetPath(atlasAsset);
+		string atlasAssetDirPath = Path.GetDirectoryName(atlasAssetPath);
+		string bakedDirPath = Path.Combine(atlasAssetDirPath, atlasAsset.name);
+
+		bool hasBakedRegions = false;
+		for (int i = 0; i < regions.Count; i++) {
+			AtlasRegion region = regions[i];
+			string bakedPrefabPath = Path.Combine(bakedDirPath, SpineEditorUtilities.GetPathSafeRegionName(region) + ".prefab").Replace("\\", "/");
+			GameObject prefab = (GameObject)AssetDatabase.LoadAssetAtPath(bakedPrefabPath, typeof(GameObject));
+
+			if (prefab != null) {
+				BakeRegion(atlasAsset, region, false);
+				hasBakedRegions = true;
+			}
+		}
+
+		if (hasBakedRegions) {
+			AssetDatabase.SaveAssets();
+			AssetDatabase.Refresh();
+		}
+
 		return (AtlasAsset)AssetDatabase.LoadAssetAtPath(atlasPath, typeof(AtlasAsset));
+	}
+
+	public static GameObject BakeRegion (AtlasAsset atlasAsset, AtlasRegion region, bool autoSave = true) {
+		Atlas atlas = atlasAsset.GetAtlas();
+		string atlasAssetPath = AssetDatabase.GetAssetPath(atlasAsset);
+		string atlasAssetDirPath = Path.GetDirectoryName(atlasAssetPath);
+		string bakedDirPath = Path.Combine(atlasAssetDirPath, atlasAsset.name);
+		string bakedPrefabPath = Path.Combine(bakedDirPath, GetPathSafeRegionName(region) + ".prefab").Replace("\\", "/");
+
+		GameObject prefab = (GameObject)AssetDatabase.LoadAssetAtPath(bakedPrefabPath, typeof(GameObject));
+		GameObject root;
+		Mesh mesh;
+		bool isNewPrefab = false;
+
+		if (!Directory.Exists(bakedDirPath))
+			Directory.CreateDirectory(bakedDirPath);
+
+		if (prefab == null) {
+			root = new GameObject("temp", typeof(MeshFilter), typeof(MeshRenderer));
+			prefab = (GameObject)PrefabUtility.CreatePrefab(bakedPrefabPath, root);
+			isNewPrefab = true;
+			Object.DestroyImmediate(root);
+		}
+
+		mesh = (Mesh)AssetDatabase.LoadAssetAtPath(bakedPrefabPath, typeof(Mesh));
+
+		Material mat = null;
+		mesh = atlasAsset.GenerateMesh(region.name, mesh, out mat);
+		if (isNewPrefab) {
+			AssetDatabase.AddObjectToAsset(mesh, prefab);
+			prefab.GetComponent<MeshFilter>().sharedMesh = mesh;
+		}
+
+		EditorUtility.SetDirty(mesh);
+		EditorUtility.SetDirty(prefab);
+
+		if (autoSave) {
+			AssetDatabase.SaveAssets();
+			AssetDatabase.Refresh();
+		}
+
+
+		prefab.GetComponent<MeshRenderer>().sharedMaterial = mat;
+
+		return prefab;
+	}
+
+	public static string GetPathSafeRegionName (AtlasRegion region) {
+		return region.name.Replace("/", "_");
 	}
 
 	static SkeletonDataAsset IngestSpineProject (TextAsset spineJson, params AtlasAsset[] atlasAssets) {
@@ -819,7 +950,7 @@ public class SpineEditorUtilities : AssetPostprocessor {
 			skin = data.DefaultSkin;
 
 		if (skin == null)
-			skin = data.Skins[0];
+			skin = data.Skins.Items[0];
 
 		anim.Reset();
 
@@ -905,7 +1036,7 @@ public class SpineEditorUtilities : AssetPostprocessor {
 			skin = data.DefaultSkin;
 
 		if (skin == null)
-			skin = data.Skins[0];
+			skin = data.Skins.Items[0];
 
 		anim.Reset();
 
@@ -996,4 +1127,30 @@ public class SpineEditorUtilities : AssetPostprocessor {
 		}
 	}
 
+	public class AtlasRequirementLoader : AttachmentLoader {
+
+		List<string> requirementList;
+		public AtlasRequirementLoader (List<string> requirementList) {
+			this.requirementList = requirementList;
+		}
+
+		public RegionAttachment NewRegionAttachment (Skin skin, string name, string path) {
+			requirementList.Add(path);
+			return new RegionAttachment(name);
+		}
+
+		public MeshAttachment NewMeshAttachment (Skin skin, string name, string path) {
+			requirementList.Add(path);
+			return new MeshAttachment(name);
+		}
+
+		public SkinnedMeshAttachment NewSkinnedMeshAttachment (Skin skin, string name, string path) {
+			requirementList.Add(path);
+			return new SkinnedMeshAttachment(name);
+		}
+
+		public BoundingBoxAttachment NewBoundingBoxAttachment (Skin skin, string name) {
+			return new BoundingBoxAttachment(name);
+		}
+	}
 }
