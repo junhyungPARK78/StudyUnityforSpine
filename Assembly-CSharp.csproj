@@ -54,6 +54,7 @@
      <Compile Include="Assets\SpineExamples\Scripts\Raptor.cs" />
      <Compile Include="Assets\SpineExamples\Scripts\Spineboy.cs" />
      <Compile Include="Assets\SpineExamples\Scripts\SpineboyController.cs" />
+     <Compile Include="Assets\SpineExamples\Spine\PJH\scripts\MonkControlerScript.cs" />
      <Compile Include="Assets\SpineExamples\Spine\PJH\scripts\player.cs" />
      <Compile Include="Assets\spine-csharp\Properties\AssemblyInfo.cs" />
      <Compile Include="Assets\spine-csharp\src\Animation.cs" />
@@ -112,6 +113,7 @@
      <Compile Include="Assets\spine-unity\SpriteCollectionAttachmentLoader.cs" />
      <None Include="Assets\SpineExamples\Spine\Eyes\eyes.atlas.txt" />
      <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
+     <None Include="Assets\SpineExamples\Spine\aaaaaaaaaaaaaaaaaa\soldier\soldier_2.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\FootSoldier\FS_White.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\Hero\hero-mesh.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\Dragon\license.txt" />

@@ -63,6 +63,7 @@
      <Compile Include="Assets\spine-unity\SkeletonUtility\Editor\SkeletonUtilitySubmeshRendererInspector.cs" />
      <None Include="Assets\SpineExamples\Spine\Eyes\eyes.atlas.txt" />
      <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
+     <None Include="Assets\SpineExamples\Spine\aaaaaaaaaaaaaaaaaa\soldier\soldier_2.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\FootSoldier\FS_White.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\Hero\hero-mesh.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\Dragon\license.txt" />
