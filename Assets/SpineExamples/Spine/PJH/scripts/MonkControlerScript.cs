@@ -15,6 +15,8 @@ public class MonkControlerScript : MonoBehaviour
 	public LayerMask whatIsGround;
 	public float jumpForce = 700f;
 
+	bool doubleJump = false;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -26,10 +28,19 @@ public class MonkControlerScript : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if (grounded && Input.GetKeyDown (KeyCode.UpArrow))
+		if ((grounded || !doubleJump) && Input.GetKeyDown (KeyCode.UpArrow))
 		{
 			anim.SetBool ("Ground", false);
+			rgdbody.velocity = new Vector3(0, 0, 0);
 			rgdbody.AddForce(new Vector3(0, jumpForce, 0));
+
+			if(!doubleJump && !grounded)
+				doubleJump = true;
+		}
+
+		if (Input.GetKeyDown ("1")) 
+		{
+			anim.Play ("idle_sub",-1,0f);
 		}
 	}	
 		
@@ -44,7 +55,11 @@ public class MonkControlerScript : MonoBehaviour
 
 		float move = Input.GetAxis ("Horizontal");
 
-		anim.SetFloat("Speed", Mathf.Abs (move));
+		//if(!grounded)
+			//anim.SetFloat("Speed", Mathf.Abs (move * 0.5f));
+		//else
+			anim.SetFloat("Speed", Mathf.Abs (move));
+
 
 		rgdbody.velocity = new Vector3 (move * maxspeed, rgdbody.velocity.y, 0);
 
@@ -54,6 +69,9 @@ public class MonkControlerScript : MonoBehaviour
 			Flip ();
 
 		CheckGround ();
+
+		if (grounded)
+			doubleJump = false;
 
 
 
@@ -78,7 +96,7 @@ public class MonkControlerScript : MonoBehaviour
 		{
 			//if(hit.transform.tag == "whatIsGround")
 			//{
-			Debug.Log ("OK");
+			//Debug.Log ("OK");
 			//anim.SetBool(grounded = true);
 			grounded = true;
 			return;
@@ -86,8 +104,10 @@ public class MonkControlerScript : MonoBehaviour
 		}
 		
 
-		Debug.Log("NO");
+		//Debug.Log("NO");
 		grounded = false;
 		//anim.SetBool ("Ground", grounded);
+
+
 	}
 }

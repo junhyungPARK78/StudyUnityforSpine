@@ -45,15 +45,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SpineExamples\Scripts\BasicPlatformerController.cs" />
-     <Compile Include="Assets\SpineExamples\Scripts\Chimera.cs" />
-     <Compile Include="Assets\SpineExamples\Scripts\ConstrainedCamera.cs" />
-     <Compile Include="Assets\SpineExamples\Scripts\DynamicSpineBone.cs" />
-     <Compile Include="Assets\SpineExamples\Scripts\FootSoldierExample.cs" />
-     <Compile Include="Assets\SpineExamples\Scripts\Goblins.cs" />
-     <Compile Include="Assets\SpineExamples\Scripts\Raptor.cs" />
-     <Compile Include="Assets\SpineExamples\Scripts\Spineboy.cs" />
-     <Compile Include="Assets\SpineExamples\Scripts\SpineboyController.cs" />
      <Compile Include="Assets\SpineExamples\Spine\PJH\scripts\MonkControlerScript.cs" />
      <Compile Include="Assets\SpineExamples\Spine\PJH\scripts\player.cs" />
      <Compile Include="Assets\spine-csharp\Properties\AssemblyInfo.cs" />
@@ -111,24 +102,12 @@
      <Compile Include="Assets\spine-unity\SpineAttributes.cs" />
      <Compile Include="Assets\spine-unity\SpriteAttacher.cs" />
      <Compile Include="Assets\spine-unity\SpriteCollectionAttachmentLoader.cs" />
-     <None Include="Assets\SpineExamples\Spine\Eyes\eyes.atlas.txt" />
      <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
-     <None Include="Assets\SpineExamples\Spine\aaaaaaaaaaaaaaaaaa\soldier\soldier_2.atlas.txt" />
-     <None Include="Assets\SpineExamples\Spine\FootSoldier\FS_White.atlas.txt" />
-     <None Include="Assets\SpineExamples\Spine\Hero\hero-mesh.atlas.txt" />
-     <None Include="Assets\SpineExamples\Spine\Dragon\license.txt" />
-     <None Include="Assets\SpineExamples\Spine\Hero\license.txt" />
-     <None Include="Assets\SpineExamples\Spine\Raptor\raptor.atlas.txt" />
-     <None Include="Assets\SpineExamples\Spine\Spineboy\spineboy.atlas.txt" />
      <None Include="Assets\SpineExamples\Spine\PJH\monk.atlas.txt" />
-     <None Include="Assets\SpineExamples\Spine\FootSoldier\license.txt" />
      <None Include="Assets\spine-unity\Shaders\Bones.shader" />
      <None Include="Assets\spine-unity\Ghost\Shaders\SkeletonGhost.shader" />
-     <None Include="Assets\SpineExamples\Spine\Dragon\dragon.atlas.txt" />
      <None Include="Assets\spine-unity\Shaders\Skeleton.shader" />
-     <None Include="Assets\SpineExamples\Spine\Goblins\goblins-mesh.atlas.txt" />
      <None Include="Assets\spine-unity\Shaders\SkeletonLit.shader" />
-     <None Include="Assets\SpineExamples\Spine\FootSoldier\Equipment\Equipment.atlas.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
